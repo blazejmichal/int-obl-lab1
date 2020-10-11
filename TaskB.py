@@ -21,3 +21,4 @@ class TaskB:
         for i in range(len(TaskB.a)):
            result.append(TaskB.a[i] * TaskB.b[i])
         print('Iloczyn wektorów: ' + str(result))
+        return result
