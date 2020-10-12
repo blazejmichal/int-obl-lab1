@@ -6,6 +6,7 @@ from TaskE import TaskE
 from TaskF import TaskF
 from TaskG import TaskG
 from Task2a import Task2a
+from Task2b import Task2b
 
 def run():
     # TaskA.execute()
@@ -19,7 +20,7 @@ def run():
     # taskF.execute(v)
     # taskG = TaskG()
     # taskG.execute(v)
-    Task2a.execute()
-
+    # Task2a.execute()
+    Task2b.execute()
 
 run()
