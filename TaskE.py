@@ -12,3 +12,4 @@ class TaskE:
 
     def execute(self):
         print('Wektor ' + str(len(self.a)) + ' losowych: ' + str(self.a))
+        return self.a

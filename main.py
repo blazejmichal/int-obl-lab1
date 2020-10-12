@@ -3,6 +3,9 @@ from TaskB import TaskB
 from TaskC import TaskC
 from TaskD import TaskD
 from TaskE import TaskE
+from TaskF import TaskF
+from TaskG import TaskG
+
 
 def run():
     TaskA.execute()
@@ -11,6 +14,11 @@ def run():
     taskD = TaskD()
     taskD.execute()
     taskE = TaskE()
-    taskE.execute()
+    v = taskE.execute()
+    taskF = TaskF()
+    taskF.execute(v)
+    taskG = TaskG()
+    taskG.execute(v)
+
 
 run()
