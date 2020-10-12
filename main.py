@@ -7,7 +7,8 @@
 # from TaskG import TaskG
 # from Task2a import Task2a
 # from Task2b import Task2b
-from Task2c import Task2c
+# from Task2c import Task2c
+from Task2d import Task2d
 
 
 def run():
@@ -24,7 +25,8 @@ def run():
     # taskG.execute(v)
     # Task2a.execute()
     # Task2b.execute()
-    Task2c.execute()
+    # Task2c.execute()
+    Task2d.execute()
 
 
 run()
