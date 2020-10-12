@@ -32,4 +32,4 @@ class TaskC:
             +
             ((TaskC.b[4] - TaskC.a[4]) ** 2)
         )
-        print('Odległość euklidesowa: ' + str(result))
+        print('Odleglosc euklidesowa: ' + str(result))

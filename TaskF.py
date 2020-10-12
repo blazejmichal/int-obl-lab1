@@ -13,4 +13,4 @@ class TaskF:
     @classmethod
     def calcAverage(cls, v):
         result = sum(v) / len(v)
-        print('Średnia wektora: ' + str(result))
+        print('Srednia wektora: ' + str(result))

@@ -12,7 +12,7 @@ class TaskB:
         result = []
         for i in range(len(TaskB.a)):
            result.append(TaskB.a[i] + TaskB.b[i])
-        print('Suma wektorów: ' + str(result))
+        print('Suma wektorow: ' + str(result))
 
 
     @staticmethod
@@ -20,5 +20,5 @@ class TaskB:
         result = []
         for i in range(len(TaskB.a)):
            result.append(TaskB.a[i] * TaskB.b[i])
-        print('Iloczyn wektorów: ' + str(result))
+        print('Iloczyn wektorow: ' + str(result))
         return result

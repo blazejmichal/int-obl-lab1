@@ -21,7 +21,7 @@ class TaskD:
             for j in range(3):
                 num = self.a[i][j] * self.b[i][j]
                 result[i].append(num)
-        print('Mnożenie macierzy po współrzędnych: ' + str(result))
+        print('Mnozenie macierzy po wspolrzednych: ' + str(result))
 
     def multiplyMatrices(self):
         result = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
@@ -29,4 +29,4 @@ class TaskD:
             for j in range(3):
                 for k in range(3):
                     result[i][j] += self.a[i][k] * self.b[k][j]
-        print('Mnożenie macierzy: ' + str(result))
+        print('Mnozenie macierzy: ' + str(result))
