@@ -1,14 +1,14 @@
-from TaskA import TaskA
-from TaskB import TaskB
-from TaskC import TaskC
-from TaskD import TaskD
-from TaskE import TaskE
-from TaskF import TaskF
-from TaskG import TaskG
-from Task2a import Task2a
-from Task2b import Task2b
-from Task2c import Task2c
-from Task2d import Task2d
+from task1.TaskA import TaskA
+from task1.TaskB import TaskB
+from task1.TaskC import TaskC
+from task1.TaskD import TaskD
+from task1.TaskE import TaskE
+from task1.TaskF import TaskF
+from task1.TaskG import TaskG
+from task2.TaskA import Task2a
+from task2.TaskB import Task2b
+from task2.TaskC import Task2c
+from task2.TaskD import Task2d
 
 
 def run():
