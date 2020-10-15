@@ -1,4 +1,5 @@
 from random import randrange
+import numpy as np
 
 
 class TaskD:
@@ -22,6 +23,7 @@ class TaskD:
                 num = self.a[i][j] * self.b[i][j]
                 result[i].append(num)
         print('Mnozenie macierzy po wspolrzednych: ' + str(result))
+        print('Numpy: ' + str(np.multiply(self.a, self.b)))
 
     def multiplyMatrices(self):
         result = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
@@ -30,3 +32,4 @@ class TaskD:
                 for k in range(3):
                     result[i][j] += self.a[i][k] * self.b[k][j]
         print('Mnozenie macierzy: ' + str(result))
+        print('Numpy: ' + str(np.matmul(self.a, self.b)))

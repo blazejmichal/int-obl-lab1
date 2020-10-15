@@ -1,5 +1,6 @@
 from TaskB import TaskB
 import math
+import numpy as np
 
 
 class TaskC:
@@ -18,6 +19,7 @@ class TaskC:
         for i in range(len(v)):
             result += v[i]
         print('Iloczyn skalarny: ' + str(result))
+        print('Numpy: ' + str(np.dot(TaskC.a, TaskC.b)))
 
     @staticmethod
     def calculateDistance():
@@ -33,3 +35,5 @@ class TaskC:
             ((TaskC.b[4] - TaskC.a[4]) ** 2)
         )
         print('Odleglosc euklidesowa: ' + str(result))
+
+        print('Numpy: ' + str(np.linalg.norm(np.subtract(TaskC.a, TaskC.b))))

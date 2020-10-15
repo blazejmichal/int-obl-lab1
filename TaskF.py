@@ -1,4 +1,5 @@
 from random import randrange
+import numpy as np
 
 
 class TaskF:
@@ -12,5 +13,7 @@ class TaskF:
 
     @classmethod
     def calcAverage(cls, v):
-        result = sum(v) / len(v)
-        print('Srednia wektora: ' + str(result))
+        print('Srednia wektora: ' + str(np.average(v)))
+        print('Min.: ' + str(np.min(v)))
+        print('Max.: ' + str(np.max(v)))
+        print('Odchylenie standardowe.: ' + str(np.std(v)))

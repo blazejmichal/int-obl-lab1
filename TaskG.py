@@ -14,9 +14,11 @@ class TaskG:
     def normalizeVector(cls, v):
         max = np.amax(v)
         min = np.amin(v)
-        result = v.copy()
+        result = list(v)
         for i in range(len(v)):
-            result[i] = (v[i] - min) / (max - min)
+            result[i] = (v[i] - min) / float(max - min)
         print('Znormalizowany wektor: ' + str(result))
-        normalizedV = v / (np.linalg.norm(v))
-        print('Znormalizowany przez numpy: ' + str(normalizedV))
+        print('Max oryginalnego wektora: ' + str(max))
+        maxIndex = v.index(max)
+        print('Pozycja max: ' + str(maxIndex))
+        print('Nowy element na tej pozycji: ' + str(float(result[maxIndex])))
